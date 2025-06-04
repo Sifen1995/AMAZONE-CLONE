@@ -1,0 +1,54 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 300px;
+    justify-self: center;
+    align-self: center;
+    border: 1px solid lightgrey;
+    padding: 20px;
+    margin-top: -50px;
+   
+}
+.container form{
+   display: flex;
+    flex-direction: column;
+    gap: 10px; 
+}
+.container form input{
+     padding: 8px 16px;
+   border: none;
+   border-radius: 3px;
+   border: 1px solid gray;
+}
+.container form input:focus{
+    background-color: rgb(175, 223, 242);
+}
+.signin_button{
+    padding: 8px 16px;
+    border: none;
+    border-radius: 3px;
+    font-weight: bold;
+    background-color: var(--primary-color);
+}
+.signin_button:hover{
+    background-color: var(--primary-shade);
+}
+.container h3{
+    
+    font-size: 27px;
+    margin: 10px;
+}
+.signup_button{
+   padding: 4px;
+       
+}
+.logo {
+    display: flex;
+   max-width: 250px;
+   max-height: 250px;
+   align-self: center;
+   justify-self: center;
+
+}
+

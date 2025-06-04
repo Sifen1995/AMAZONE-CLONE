@@ -1,0 +1,9 @@
+# Frontend ignores
+/Front-end/node_modules
+/Front-end/dist
+
+# Backend sensitive files
+/backend/.env
+/backend/node_modules
+
+
